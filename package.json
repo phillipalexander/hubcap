@@ -1,0 +1,26 @@
+{
+  "name": "hubcap",
+  "version": "0.0.1",
+  "description": "github command line tool associated with the hubcap application",
+  "private": false,
+  "bin": {
+    "hubcap": "./bin/hubcap"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": {
+    "name": "Phillip Alexander",
+    "email": "npm@phillipalexander.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phillipalexander/hubcap"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "~2.0.0"
+  },
+  "devDependencies": {
+  }
+}
